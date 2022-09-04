@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  line-height: 1.15;
+  padding: 1.5em 1em 1.15em 1em;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.15rem;
+  padding: 0 1em 1em 1em;
+  text-align: center;
+  font-weight: 300;
+  color: hsl(220, 15%, 55%);
+}
+
+section {
+  background: hsl(212, 45%, 89%);
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8em;
+  height: 100vh;
+}
+
+.container {
+  width: 300px;
+  background: hsl(0, 0%, 100%);
+  padding: 1em;
+  border-radius: 15px;
+  box-shadow: 5px 10px 5px 10px rgba(15, 14, 14, 0.01);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 350px) {
+  .container {
+    padding: 1em;
+    width: 85%;
+  }
+}
