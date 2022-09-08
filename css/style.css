@@ -5,10 +5,19 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  display: flex;
+  background: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 h1 {
   line-height: 1.15;
   padding: 1.5em 1em 1.15em 1em;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 15px;
   letter-spacing: 0.05em;
   color: hsl(218, 44%, 22%);
@@ -19,7 +28,7 @@ p {
   line-height: 1.15rem;
   padding: 0 1em 1em 1em;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   color: hsl(220, 15%, 55%);
 }
 
